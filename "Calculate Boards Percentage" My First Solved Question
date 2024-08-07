@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        System.out.println("calculate cbsc board percentage");
+        Scanner s = new Scanner(System.in);
+        System.out.println("What is your Chemestry markes in board");
+        float c = s.nextFloat();
+        System.out.println("what is your Math markes in board");
+        float m = s.nextFloat();
+        System.out.println("what is your Physics markes in board");
+        float p = s.nextFloat();
+        System.out.println("what is your English markes in board");
+        float e = s.nextFloat();
+        System.out.println("what is your Biology markes in board");
+        float b = s.nextFloat();
+        System.out.println("This is your percentage of cbsc board exam");
+        float total = (c+m+p+b+e)/(500)*100 ;
+        System.out.println(total);
+    }
+    
+}
